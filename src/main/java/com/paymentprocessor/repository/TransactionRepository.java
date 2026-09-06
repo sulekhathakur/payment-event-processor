@@ -10,5 +10,4 @@ public interface TransactionRepository extends JpaRepository<Transaction, UUID> 
 
     Optional<Transaction> findByTransactionId(UUID transactionId);
 
-    boolean existsByTransactionId(UUID transactionId);
 }
